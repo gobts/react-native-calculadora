@@ -9,7 +9,7 @@ enum Operadores {
 
 export const useCalculadora = () => {
   const [numeroAnterior, setNumeroAnterior] = useState('0');
-  const [numero, setNumero] = useState('100');
+  const [numero, setNumero] = useState('0');
 
   const ultimaOperacion = useRef<Operadores>();
   const limpiar = () => {
